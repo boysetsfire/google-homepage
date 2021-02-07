@@ -75,6 +75,7 @@ body {
 }
 
 .bottomleft {
+    width: 30%;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -96,7 +97,21 @@ body {
     padding-left: 15px;
 }
 
+.bottommid {
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    line-height: 40px;
+}
+
+.co2neutral {
+    display: inline-block;
+    padding-left: 15px;
+}
+
 .bottomright {
+    width: 30%;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -120,6 +135,19 @@ body {
 
 .footer-color {
     background-color: #f2f2f2;
-    color: rgba(0, 0, 0, .54);
     border-top: 1px solid #dadce0;
-} 
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-color a {
+    color: rgba(0, 0, 0, .54);
+}
+
+a:hover {
+    text-decoration: underline;
+}
